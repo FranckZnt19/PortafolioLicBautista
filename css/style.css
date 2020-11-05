@@ -1,0 +1,41 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+.hero{
+    background-image: url("../img/bg-1.jpg");
+}
+.text-ab{
+    color: #DF3F1D !important;
+}
+.bg-ab{
+    background-color: #000;
+    color: #fff;
+}
+.hr-ab{
+    border-color:#DF3F1D;
+}
+.portfolio a, .events a, .footer a{
+    color: #DF3F1D !important;
+}
+.circulo-ab {
+	width: 13rem;
+	height: 13rem;
+	border-radius: 50%;
+	background: #DF3F1D;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  margin:0px auto;
+  padding:3%
+}
+.footer{
+    background-color: #222222;
+    color: white;
+}
+.footer .container-fluid{
+    background-color: #151515;
+    color: white;
+}
