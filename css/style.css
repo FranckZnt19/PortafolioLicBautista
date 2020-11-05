@@ -3,6 +3,9 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
 }
+.hero{
+    background-image: url("../img/bg-1.jpg");
+}
 .text-ab{
     color: #DF3F1D !important;
 }
@@ -10,11 +13,12 @@ body{
     background-color: #000;
     color: #fff;
 }
-.bg-alam1:hover{
-    background-color: #DF3F1D;
-    color: azure;
+.hr-ab{
+    border-color:#DF3F1D;
 }
-
+.portfolio a, .events a, .footer a{
+    color: #DF3F1D !important;
+}
 .circulo-ab {
 	width: 13rem;
 	height: 13rem;
@@ -26,4 +30,12 @@ body{
 	text-align: center;
   margin:0px auto;
   padding:3%
+}
+.footer{
+    background-color: #222222;
+    color: white;
+}
+.footer .container-fluid{
+    background-color: #151515;
+    color: white;
 }
