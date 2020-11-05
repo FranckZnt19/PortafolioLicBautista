@@ -1,15 +1,29 @@
 body{
     overflow-x: hidden;
     font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
 }
 .text-ab{
     color: #DF3F1D !important;
 }
-.bg-alam{
-    background-color: #DF3F1D;
-    color: azure;
+.bg-ab{
+    background-color: #000;
+    color: #fff;
 }
 .bg-alam1:hover{
     background-color: #DF3F1D;
     color: azure;
+}
+
+.circulo-ab {
+	width: 13rem;
+	height: 13rem;
+	border-radius: 50%;
+	background: #DF3F1D;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  margin:0px auto;
+  padding:3%
 }
